@@ -1,7 +1,7 @@
 ##loc
 
-# import pandas as pd
+import pandas as pd
 
-# df = pd.read_excel('OS_test_sorter.xlsx', index_col='OS1')
-# #df.loc['D0N']
-# df.loc['OS2':'OS3']
+df = pd.read_excel('OS_test_sorter.xlsx', index_col='OS1')
+#df.loc['D0N']
+print(df.loc['OS2':'OS3'])
